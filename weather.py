@@ -3,7 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Define global variables
-api_key = 'a76dd3d921db515c5038979c625d7891'
+api_key = 'Your API key'
 lat = '43.06'
 lon = '141.35'
 url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}"
